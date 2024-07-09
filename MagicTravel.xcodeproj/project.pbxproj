@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31573182C35E31D009F8428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31573172C35E31D009F8428 /* AppDelegate.swift */; };
+		C315731A2C35E31D009F8428 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31573192C35E31D009F8428 /* SceneDelegate.swift */; };
+		C315731C2C35E31D009F8428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315731B2C35E31D009F8428 /* ViewController.swift */; };
+		C315731F2C35E31D009F8428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C315731D2C35E31D009F8428 /* Main.storyboard */; };
+		C31573212C35E31E009F8428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31573202C35E31E009F8428 /* Assets.xcassets */; };
+		C31573242C35E31E009F8428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31573222C35E31E009F8428 /* LaunchScreen.storyboard */; };
+		C315732F2C35E31E009F8428 /* MagicTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315732E2C35E31E009F8428 /* MagicTravelTests.swift */; };
+		C31573392C35E31E009F8428 /* MagicTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31573382C35E31E009F8428 /* MagicTravelUITests.swift */; };
+		C315733B2C35E31E009F8428 /* MagicTravelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315733A2C35E31E009F8428 /* MagicTravelUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C315732B2C35E31E009F8428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C315730C2C35E31D009F8428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31573132C35E31D009F8428;
+			remoteInfo = MagicTravel;
+		};
+		C31573352C35E31E009F8428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C315730C2C35E31D009F8428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31573132C35E31D009F8428;
+			remoteInfo = MagicTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C31573142C35E31D009F8428 /* MagicTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31573172C35E31D009F8428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C31573192C35E31D009F8428 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C315731B2C35E31D009F8428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C315731E2C35E31D009F8428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C31573202C35E31E009F8428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C31573232C35E31E009F8428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C31573252C35E31E009F8428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C315732A2C35E31E009F8428 /* MagicTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C315732E2C35E31E009F8428 /* MagicTravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTravelTests.swift; sourceTree = "<group>"; };
+		C31573342C35E31E009F8428 /* MagicTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31573382C35E31E009F8428 /* MagicTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTravelUITests.swift; sourceTree = "<group>"; };
+		C315733A2C35E31E009F8428 /* MagicTravelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicTravelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31573112C35E31D009F8428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31573272C35E31E009F8428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31573312C35E31E009F8428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C315730B2C35E31D009F8428 = {
+			isa = PBXGroup;
+			children = (
+				C31573162C35E31D009F8428 /* MagicTravel */,
+				C315732D2C35E31E009F8428 /* MagicTravelTests */,
+				C31573372C35E31E009F8428 /* MagicTravelUITests */,
+				C31573152C35E31D009F8428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C31573152C35E31D009F8428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31573142C35E31D009F8428 /* MagicTravel.app */,
+				C315732A2C35E31E009F8428 /* MagicTravelTests.xctest */,
+				C31573342C35E31E009F8428 /* MagicTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31573162C35E31D009F8428 /* MagicTravel */ = {
+			isa = PBXGroup;
+			children = (
+				C31573172C35E31D009F8428 /* AppDelegate.swift */,
+				C31573192C35E31D009F8428 /* SceneDelegate.swift */,
+				C315731B2C35E31D009F8428 /* ViewController.swift */,
+				C315731D2C35E31D009F8428 /* Main.storyboard */,
+				C31573202C35E31E009F8428 /* Assets.xcassets */,
+				C31573222C35E31E009F8428 /* LaunchScreen.storyboard */,
+				C31573252C35E31E009F8428 /* Info.plist */,
+			);
+			path = MagicTravel;
+			sourceTree = "<group>";
+		};
+		C315732D2C35E31E009F8428 /* MagicTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				C315732E2C35E31E009F8428 /* MagicTravelTests.swift */,
+			);
+			path = MagicTravelTests;
+			sourceTree = "<group>";
+		};
+		C31573372C35E31E009F8428 /* MagicTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C31573382C35E31E009F8428 /* MagicTravelUITests.swift */,
+				C315733A2C35E31E009F8428 /* MagicTravelUITestsLaunchTests.swift */,
+			);
+			path = MagicTravelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31573132C35E31D009F8428 /* MagicTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C315733E2C35E31E009F8428 /* Build configuration list for PBXNativeTarget "MagicTravel" */;
+			buildPhases = (
+				C31573102C35E31D009F8428 /* Sources */,
+				C31573112C35E31D009F8428 /* Frameworks */,
+				C31573122C35E31D009F8428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicTravel;
+			productName = MagicTravel;
+			productReference = C31573142C35E31D009F8428 /* MagicTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C31573292C35E31E009F8428 /* MagicTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31573412C35E31E009F8428 /* Build configuration list for PBXNativeTarget "MagicTravelTests" */;
+			buildPhases = (
+				C31573262C35E31E009F8428 /* Sources */,
+				C31573272C35E31E009F8428 /* Frameworks */,
+				C31573282C35E31E009F8428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C315732C2C35E31E009F8428 /* PBXTargetDependency */,
+			);
+			name = MagicTravelTests;
+			productName = MagicTravelTests;
+			productReference = C315732A2C35E31E009F8428 /* MagicTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C31573332C35E31E009F8428 /* MagicTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31573442C35E31E009F8428 /* Build configuration list for PBXNativeTarget "MagicTravelUITests" */;
+			buildPhases = (
+				C31573302C35E31E009F8428 /* Sources */,
+				C31573312C35E31E009F8428 /* Frameworks */,
+				C31573322C35E31E009F8428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31573362C35E31E009F8428 /* PBXTargetDependency */,
+			);
+			name = MagicTravelUITests;
+			productName = MagicTravelUITests;
+			productReference = C31573342C35E31E009F8428 /* MagicTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C315730C2C35E31D009F8428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C31573132C35E31D009F8428 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C31573292C35E31E009F8428 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C31573132C35E31D009F8428;
+					};
+					C31573332C35E31E009F8428 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C31573132C35E31D009F8428;
+					};
+				};
+			};
+			buildConfigurationList = C315730F2C35E31D009F8428 /* Build configuration list for PBXProject "MagicTravel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C315730B2C35E31D009F8428;
+			productRefGroup = C31573152C35E31D009F8428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31573132C35E31D009F8428 /* MagicTravel */,
+				C31573292C35E31E009F8428 /* MagicTravelTests */,
+				C31573332C35E31E009F8428 /* MagicTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C31573122C35E31D009F8428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31573242C35E31E009F8428 /* LaunchScreen.storyboard in Resources */,
+				C31573212C35E31E009F8428 /* Assets.xcassets in Resources */,
+				C315731F2C35E31D009F8428 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31573282C35E31E009F8428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31573322C35E31E009F8428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C31573102C35E31D009F8428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C315731C2C35E31D009F8428 /* ViewController.swift in Sources */,
+				C31573182C35E31D009F8428 /* AppDelegate.swift in Sources */,
+				C315731A2C35E31D009F8428 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31573262C35E31E009F8428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C315732F2C35E31E009F8428 /* MagicTravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31573302C35E31E009F8428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C315733B2C35E31E009F8428 /* MagicTravelUITestsLaunchTests.swift in Sources */,
+				C31573392C35E31E009F8428 /* MagicTravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C315732C2C35E31E009F8428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31573132C35E31D009F8428 /* MagicTravel */;
+			targetProxy = C315732B2C35E31E009F8428 /* PBXContainerItemProxy */;
+		};
+		C31573362C35E31E009F8428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31573132C35E31D009F8428 /* MagicTravel */;
+			targetProxy = C31573352C35E31E009F8428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C315731D2C35E31D009F8428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C315731E2C35E31D009F8428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C31573222C35E31E009F8428 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31573232C35E31E009F8428 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C315733C2C35E31E009F8428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C315733D2C35E31E009F8428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C315733F2C35E31E009F8428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWA7B6JFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MagicTravel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreertunc.MagicTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C31573402C35E31E009F8428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWA7B6JFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MagicTravel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreertunc.MagicTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C31573422C35E31E009F8428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWA7B6JFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreertunc.MagicTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicTravel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagicTravel";
+			};
+			name = Debug;
+		};
+		C31573432C35E31E009F8428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWA7B6JFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreertunc.MagicTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicTravel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagicTravel";
+			};
+			name = Release;
+		};
+		C31573452C35E31E009F8428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWA7B6JFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreertunc.MagicTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicTravel;
+			};
+			name = Debug;
+		};
+		C31573462C35E31E009F8428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AAWA7B6JFN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreertunc.MagicTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicTravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C315730F2C35E31D009F8428 /* Build configuration list for PBXProject "MagicTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C315733C2C35E31E009F8428 /* Debug */,
+				C315733D2C35E31E009F8428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C315733E2C35E31E009F8428 /* Build configuration list for PBXNativeTarget "MagicTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C315733F2C35E31E009F8428 /* Debug */,
+				C31573402C35E31E009F8428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31573412C35E31E009F8428 /* Build configuration list for PBXNativeTarget "MagicTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31573422C35E31E009F8428 /* Debug */,
+				C31573432C35E31E009F8428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31573442C35E31E009F8428 /* Build configuration list for PBXNativeTarget "MagicTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31573452C35E31E009F8428 /* Debug */,
+				C31573462C35E31E009F8428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C315730C2C35E31D009F8428 /* Project object */;
+}
