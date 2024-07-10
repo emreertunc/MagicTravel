@@ -58,9 +58,20 @@ extension ViewController: UITableViewDelegate{
         tableView.deselectRow(at: indexPath,
                               animated: true)
         
-        let detailViewController = UIViewController()
-        present(detailViewController,
-        animated: true)
+        // Present
+        //let detailViewController = UIViewController()
+        //detailViewController.view.backgroundColor = .green
+        // detailViewController.modalPresentationStyle = .automatic
+        // present(detailViewController, animated: true)
+        
+        // NavigationStack
+        //let detailViewController = UIViewController()
+        //detailViewController.view.backgroundColor = .green
+        //navigationController?.pushViewController(detailViewController, animated: true)
+        
+        //Segue
+        performSegue(withIdentifier: "showCountryDetails", sender: self)
+        
     }
 }
 
